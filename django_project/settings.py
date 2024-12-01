@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     # Local
     "core.apps.CoreConfig",
     "user.apps.UserConfig",
+    "api.apps.ApiConfig",
+    "api_v1.apps.ApiV1Config",
 ]
 
 MIDDLEWARE = [
